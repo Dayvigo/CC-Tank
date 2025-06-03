@@ -5,7 +5,7 @@ right.setTargetSpeed(0)
 left.setTargetSpeed(0)
 
 local modem = peripheral.find("modem")
-local mSend, mRecieve = 100, 100 --送受信ポート番号
+local mSend, mRecieve = 100, 100 --送受信ポート番号(お好みで)
 modem.open(mRecieve)
 
 local keys = {}
