@@ -1,5 +1,6 @@
 local modem = peripheral.find("modem")
 local cannon = peripheral.find("cbcmodernwarfare:compact_mount") -- MWのマウントを想定
+cannon.assemble()
 local mSend, mRecive = 100, 100 --送受信ポート番号(お好みで)
 modem.open(mRecive)
 
