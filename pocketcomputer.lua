@@ -1,5 +1,5 @@
 local modem = peripheral.find("modem") 
-local mSend, mRecieve = 100, 100 --送受信ポート番号
+local mSend, mRecieve = 100, 100 --送受信ポート番号(お好みで)
 
 local keys_ = { --キーバインドはお好みで
     w = false, s = false, a = false, d = false,
