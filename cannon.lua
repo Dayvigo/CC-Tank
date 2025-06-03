@@ -19,10 +19,10 @@ end
 
 local function cannonPitch()
     while true do
-        if keys.r then 
+        if keys.up then 
             sPitch = sPitch + 3
             cannon.setPitch(sPitch)
-        elseif keys.f then
+        elseif keys.down then
             sPitch = sPitch - 3
             cannon.setPitch(sPitch)
         end
